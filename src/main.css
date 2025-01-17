@@ -1,0 +1,56 @@
+html, body {
+  background-color: #010408;
+  color: #ffff;
+  margin: 0;
+
+}
+
+a {
+  color: #ffffff; /* Color for unvisited links */
+  text-decoration: none; /* Remove underline if desired */
+}
+
+a:visited {
+  color: #ffffff; /* Same color as unvisited links */
+  text-decoration: none; /* Remove underline if desired */
+}
+
+a:hover {
+  color: #f0e68c; /* Example: Change color on hover */
+}
+
+a:active {
+  color: #ff0000; /* Example: Change color when active */
+}
+
+.navbar {
+  background-color: #001f3f;
+  padding-top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Distributes space between the left and right sections */
+  align-items: center; /* Centers items vertically */
+  padding: 10px;
+  margin: 0;
+
+}
+
+.links {
+  display: flex;
+  gap: 20px; /* Adds space between the text links */
+}
+
+.social-links {
+  display: flex;
+  gap: 15px; /* Adds space between the images */
+}
+
+.social-links img {
+  max-width: 40px; /* Set your desired size for the images */
+  max-height: 40px;
+  width: auto;
+  height: auto;
+}
+
